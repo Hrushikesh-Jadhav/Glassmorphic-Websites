@@ -11,6 +11,7 @@
 body{
     background-image: url(bg-img2.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 nav{
@@ -20,7 +21,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+    
 }
 nav img{
     width: 90px;
@@ -39,3 +40,4 @@ nav ul li a{
     font-size: large;
     font-weight: bold;
 }
+
