@@ -101,3 +101,19 @@ a.active{
         top: 0px;
     }
 }
+
+@media only screen and (max-width: 400px){
+    /* body{
+        background-image: url(coffee-cup.png);
+    } */
+    #contenor{
+        height: auto;
+        width: 300px;
+        margin: 20px 0px 10px 20px;
+        background-color: rgba(255, 255, 255, 0.336);
+        border-radius: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.726);
+        backdrop-filter: blur(5px);
+        
+    }
+}
